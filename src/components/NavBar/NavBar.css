@@ -1,0 +1,30 @@
+.netflixLogo{
+    width: 80px;
+    position: fixed;
+    left: 20px;
+    top: 20px;
+}
+
+
+.avatarLogo{
+    width: 40px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+}
+
+
+.searchIcon{
+    position: fixed;
+    top: 25px;
+    right: 80px;
+}
+
+.bellIcon{
+    position: fixed;
+    top: 25px;
+    right: 120px;
+}
+
+
+
