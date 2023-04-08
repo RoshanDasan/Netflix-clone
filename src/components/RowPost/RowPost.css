@@ -1,7 +1,7 @@
-.row {
-    margin-left: 20px;
+body{
     color: aliceblue;
 }
+
 
 .posters {
     display: flex;
@@ -15,12 +15,12 @@
 }
 
 .poster {
-    max-height: 250px;
+    max-height: 150px;
     margin: 10px;
     cursor: pointer;
 }
 .poster:hover {
-   transform: scale(1.1);
+   transform: scale(2);
 }
 body{
     padding: 0;

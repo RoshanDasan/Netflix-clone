@@ -1,0 +1,20 @@
+.login {
+
+   border: 2px solid white;
+   width: 300px;
+   height: 250px;
+   text-align: center;
+   color: aliceblue;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+
+}
+
+.input_field {
+display: block;
+margin: 10px;
+
+}
+

@@ -1,21 +1,18 @@
-import './App.css';
-import Banner from './components/Banner/Banner';
-import NavBar from './components/NavBar/NavBar';
-import RowPost from './components/RowPost/RowPost';
-import {originals, action, romantic} from './URLs'
+import "./App.css";
+import Home from "./Main-Components/Home/Home";
+import Login from "./Main-Components/Login/Login";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
-  return (
-    <div className="App">
-     <NavBar />
-     <Banner/>
-     <RowPost url={originals} title='Netflix originals'/>
-     <RowPost url={action} title='Action' isSmall/>
-     <RowPost url={romantic} title='Romatic' isSmall/>
+  return <div className="App">
+    <BrowserRouter>
+    <Routes>
+      <Route exact path="/" element={<Login/>} />
+      <Route exact path="/home" element={<Home/>} />
 
-
-    </div>
-  );
+    </Routes>
+    </BrowserRouter>
+  </div>;
 }
 
 export default App;
